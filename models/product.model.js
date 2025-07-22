@@ -28,4 +28,5 @@ exports.update = (id, data, callback) => {
 
 exports.remove = (id, callback) => {
     db.query('DELETE FROM products WHERE id = ?', [id], callback);
+
 };
